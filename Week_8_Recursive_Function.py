@@ -11,6 +11,7 @@ def fib(n):
         return fib(n - 1) + fib(n - 2)
     
 def main():
+    print("The Fibonacci series for 16:")
     for i in range(16):
         print(fib(i), end=", ")
     print("...")
